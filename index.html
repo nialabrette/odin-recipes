@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin's Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>Odin's Recipes</h1>
-    <img src="images/chef.jpg">
-    <ul>
-        <li><a href="recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="recipes/brusselsprouts.html">Air Fryer Brussel Sprouts</a></li>
-        <li><a href="recipes/chicken.html">Honey Garlic Chicken Thighs</a></li>
-    </ul>    
+    <nav>
+        <ul>
+            <li class="header"><a href="#">Home</a></li>
+            <li class="header"><a href="#">About</a></li>
+            <li class="header"><a href="#">Recipes</a></li>
+        </ul>
+    </nav>
+    <img src="images/chef.jpg" class="chef" alt="chef">
+    <h1 class="title">Odin's Recipes</h1>
+    <div class="container">
+        <img class="item" src="images/lasagna.jpg">
+        <img class="item" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3396115.jpg&w=596&h=596&c=sc&poi=face&q=85">
+        <img class="item" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8051141.jpg&q=85">
+    </div>
+    
+   <div>
+    <ul >
+        <li><a href="recipes/lasagna.html" target="blank">Lasagna</a></li>
+        <li><a href="recipes/brusselsprouts.html" target="blank">Air Fryer Brussel Sprouts</a></li>
+        <li><a href="recipes/chicken.html" target="blank">Honey Garlic Chicken Thighs</a></li>
+    </ul>
+   </div>
+       
 </body>
 </html>
