@@ -1,38 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin's Recipes</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet"> 
-</head>
-<body>
-    <nav>
-        <ul>
-            <li class="header"><a href="#">Home</a></li>
-            <li class="header"><a href="#">About</a></li>
-            <li class="header"><a href="#">Recipes</a></li>
-        </ul>
-    </nav>
-    <img src="images/chef.jpg" class="chef" alt="chef">
-    <h1 class="title">Odin's Recipes</h1>
-    <div class="container">
-        <img class="item" src="images/lasagna.jpg">
-        <img class="item" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3396115.jpg&w=596&h=596&c=sc&poi=face&q=85">
-        <img class="item" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8051141.jpg&q=85">
-    </div>
-    
-   <div>
-    <ul >
-        <li><a href="recipes/lasagna.html" target="blank">Lasagna</a></li>
-        <li><a href="recipes/brusselsprouts.html" target="blank">Air Fryer Brussel Sprouts</a></li>
-        <li><a href="recipes/chicken.html" target="blank">Honey Garlic Chicken Thighs</a></li>
-    </ul>
-   </div>
-       
-</body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Odin Recipes</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Odin</strong> <span>Recipes</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Recipes</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>Odin Recipes</h1>
+							</header>
+							<div class="content">
+								<p>An index of the tastiest recipes<br />
+								Quick and easy to understand</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Get Started</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="#" class="link">Breakfast</a></h3>
+										<p>The most important meal of the day</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="#" class="link">Lunch</a></h3>
+										<p>What time is it? It's time for lunch</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="#" class="link">Dinner</a></h3>
+										<p>Unwind from your day with a good meal</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="#" class="link">Dessert</a></h3>
+										<p>Always room for dessert</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="#" class="link">Snacks</a></h3>
+										<p>Perfect for movie watching</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="#" class="link">Drinks</a></h3>
+										<p>Whether you like it virgin or boozy, there's something here for everyone</p>
+									</header>
+								</article>
+							</section>
+			
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Odin Recipes</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
